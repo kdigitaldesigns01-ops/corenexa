@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Corenexa Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&family=Krub:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact-page">
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="index.html" class="brand" aria-label="Corenexa Systems home">
+        <img class="brand-logo" src="img/corenexa-logo.png" alt="Corenexa Systems logo">
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="financial health check.html">Financial Health Check</a>
+        <a href="sap partners.html">SAP Partners</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+
+      <a href="contact.html" class="nav-cta">Book a 30-Minute Discussion</a>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <section class="contact-hero" aria-labelledby="contact-title">
+      <div class="contact-hero-content">
+        <h1 id="contact-title">Get in Touch</h1>
+        <p>Ready to optimize your SAP Finance function? Let's start a conversation.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <aside class="contact-info">
+          <div class="contact-methods">
+            <div class="info-item">
+              <h3>Email Us:</h3>
+              <p><a href="mailto:cece.mehlo@gmail.com">cece.mehlo@gmail.com</a></p>
+            </div>
+
+            <div class="info-item">
+              <h3>Call Us:</h3>
+              <p><a href="tel:+27101408048">+27 10 140 8048</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <h3>Our Location:</h3>
+            <p>1st Floor, Cradock Square<br>169 Oxford Road<br>Rosebank, Johannesburg</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Partnerships:</h3>
+            <p>Interested in collaborating?<br><a href="sap partners.html">Visit our Partner Page &rarr;</a></p>
+          </div>
+        </aside>
+
+        <div class="contact-form-container">
+          <form action="mailto:solutions@corenexa.com" method="post" enctype="text/plain" class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="health-check">Financial Health Check</option>
+                <option value="sap-optimization">SAP Optimization</option>
+                <option value="partnership">Partnership Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your current SAP challenges..." required></textarea>
+            </div>
+            <button type="submit" class="button">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+<section class="location-section">
+  <div class="location-card">
+
+    <div class="location-info">
+      <h2>Visit Our Office</h2>
+
+      <p>
+        1st Floor, Cradock Square<br>
+        169 Oxford Road<br>
+        Rosebank<br>
+        Johannesburg, 2196
+      </p>
+
+      <a 
+        href="https://maps.google.com/?q=1st+Floor+Cradock+Square+169+Oxford+Road+Rosebank+Johannesburg+2196"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button">
+        Open in Google Maps <span aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+
+    <div class="map-wrapper">
+      <iframe
+        title="Map to Corenexa Systems office"
+        src="https://maps.google.com/maps?q=1st%20Floor%20Cradock%20Square%20169%20Oxford%20Road%20Rosebank%20Johannesburg%202196&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+    <img class="footer-bg" src="img/abstract-technology-network (1).jpg" alt="" aria-hidden="true">
+    <div class="footer-inner about-footer-inner">
+      <div class="footer-brand-block">
+        <a href="index.html" aria-label="Corenexa Systems home">
+          <img class="footer-logo" src="img/corenexa-logo.png" alt="Corenexa Systems logo">
+        </a>
+        <p class="footer-tagline">SAP FINANCE OPTIMISATION</p>
+        <p>We help organisations optimise their SAP finance environments to improve efficiency, accuracy and visibility - unlocking more value from SAP.</p>
+      </div>
+
+      <div class="about-footer-grid">
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="financial health check.html">Financial Health Check</a></li>
+            <li><a href="sap partners.html">For SAP Partners</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>Insights</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Services</h3>
+          <ul>
+            <li>SAP Finance Optimisation</li>
+            <li>Management Reporting</li>
+            <li>Finance Process Improvement</li>
+            <li>Financial Close Optimisation</li>
+            <li>Data &amp; Reporting</li>
+            <li>Controls &amp; Compliance</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:cece.mehlo@gmail.com">cece.mehlo@gmail.com</a></li>
+            <li><a href="tel:+27101408048">+27 10 140 8048</a></li>
+            <li>Johannesburg, South Africa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 CORENEXA</span>
+        <span>Images by freepik</span>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
